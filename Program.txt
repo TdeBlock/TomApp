@@ -12,7 +12,7 @@ public static void main(String[] args){
 	Person tom = new Person("Tom", "de Block", 28);
 	Person thomas = new Person("Thomas", "der Blok", 38);
 	
-	println tom.name;
-	println thomas.name;
+	println tom.name & tom.lastname & tom.age;
+	println thomas.name & thomas.lastname & thomas.age;
 	
 }
