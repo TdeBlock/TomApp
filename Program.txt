@@ -2,3 +2,17 @@ var i: int;
 var j: int;
 
 var x = 10 * {i * j}
+
+//Dit is allemaal een beetje raar.
+for(i = 0; 10; 1){
+	x + i;
+}
+
+public static void main(String[] args){
+	Person tom = new Person("Tom", "de Block", 28);
+	Person thomas = new Person("Thomas", "der Blok", 38);
+	
+	println tom.name;
+	println thomas.name;
+	
+}
