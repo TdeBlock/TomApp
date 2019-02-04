@@ -1,0 +1,4 @@
+var i: int;
+var j: int;
+
+var x = 10 * {i * j}
